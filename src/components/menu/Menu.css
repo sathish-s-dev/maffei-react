@@ -1,0 +1,539 @@
+@media screen and (max-width: 4000px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Edensor', sans-serif;
+    color: white;
+    background-color: black;
+  }
+
+  .menu__background {
+    width: 100vw;
+    background: url('./bg1.png') center center no-repeat;
+    background-size: cover;
+  }
+
+  /* main section */
+
+
+  .main_section {
+    display: flow-root;
+
+  }
+
+  .menu__text_section {
+    min-height: 92vh;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text_container {
+    width: 82.03%;
+    height: 90%;
+    /* margin: 150px auto; */
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menu__section_heading {
+    font-size: 2.188rem;
+    font-weight: 400;
+    width: 78.63%;
+    margin-top: 2%;
+    letter-spacing: 1px;
+    padding: 0 3.125;
+    line-height: 2.188rem;
+  }
+
+  .text {
+    font-size: 1.063rem;
+    margin: 1.25rem;
+    color: #ffffff86;
+    padding: 0 2%;
+  }
+
+  span.orange_text {
+    text-transform: uppercase;
+    display: block;
+    color: #c28059;
+    margin: 1.25rem 0;
+  }
+
+  /* menu section */
+
+  .background_img {
+    width: 100vw;
+    height: 71.42vh;
+    /* padding-top: 300px; */
+    clear: both;
+
+  }
+
+  .section1 {
+    background: url('./dish1.jpg') center bottom/cover;
+    margin-bottom: 20%;
+
+  }
+
+  .section2 {
+    background: url('./dish2.jpg') center bottom/cover;
+    margin-bottom: 20%;
+
+  }
+
+  .section3 {
+    background: url('./dish3.jpg') center bottom/cover;
+    margin-bottom: 600px;
+
+  }
+
+  .section4 {
+    background: url('./dish4.jpg') center bottom/cover;
+    margin-bottom: 35%;
+
+  }
+
+  .section5 {
+    background: url('./dish5.jpg') center bottom/cover;
+    margin-bottom: 35%;
+
+  }
+
+  .section6 {
+    background: url('./dish6.jpg') center bottom/cover;
+    margin-bottom: 20%;
+
+  }
+
+  .section7 {
+    background: url('./baratender.png') center bottom/cover;
+    margin-bottom: 20%;
+
+  }
+
+  .section8 {
+    background: url('./dish8.jpg') center bottom/cover;
+    margin-bottom: 35%;
+
+  }
+
+  .section9 {
+    background: url('./dish9.jpg') center bottom/cover;
+    margin-bottom: 20%;
+
+  }
+
+  .section10 {
+    background: url('./dish10.jpg') center bottom/cover;
+    margin-bottom: 35%;
+
+  }
+
+  .section11 {
+    background: url('./dish11.jpg') center bottom/cover;
+    margin-bottom: 40%;
+
+  }
+
+
+  .overlay_container {
+    position: relative;
+    top: 65%;
+    width: 82.03%;
+    background: #00181A;
+    margin: 0 auto;
+    padding: 1.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    font-size: 1.25rem;
+    color: #c28059;
+  }
+
+  .card_heading {
+    font-size: 35px;
+    margin: 20px 0;
+  }
+
+
+  .card_container {
+    /* border:1px solid white; */
+    min-width: 600px;
+    min-height: 100px;
+    display: flex;
+    margin-bottom: 20px;
+    gap: 1rem;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card_text {
+    width: 430px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    letter-spacing: 0.1rem;
+  }
+
+  .card_text h5 {
+    text-transform: uppercase;
+    font-size: 1.063rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+  }
+
+  .dish_img {
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    object-fit: cover;
+  }
+
+  .dish_text {
+    color: #ffffff86;
+    font-size: 15px;
+    padding-right: 1.25rem;
+  }
+
+
+  .hidden {
+    opacity: 0;
+  }
+
+
+
+
+  /* reservation section */
+  .reservation_section {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    border: 1px solid black;
+  }
+
+  .wine_container {
+    /* width: 47.6%; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex:1; */
+  }
+
+  .form_container {
+    width: 47.6%; 
+    height: 100%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .send {
+    align-self: flex-start;
+  }
+
+  form input,
+  select {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: inherit;
+    border: none;
+    border-bottom: 2px solid rgb(81, 81, 81);
+    margin-bottom: 25px;
+    padding-left: 10px;
+
+  }
+
+  .wine {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
+
+  label {
+    display: block;
+    width: 200px;
+    font-size: 1.063rem;
+    margin-top: 10px;
+  }
+
+  div.input {
+    /* width: 195px; */
+    display: inline-block;
+  }
+
+  .input_container input,
+  select {
+    /* width: 180px; */
+    display: inline-block;
+  }
+
+  .input_container {
+    margin-top: 25px;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .grey {
+    color: gray
+  }
+
+  input.reserve {
+    width: 100%;
+  }
+
+  .call_icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .form_heading {
+    padding: 0;
+    font-size: 35px;
+    line-height: 35px;
+    margin: 1.25rem 0;
+
+  }
+
+  .text_form {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2.5px;
+  }
+
+  .couple {
+    object-fit: cover;
+    height: 80%;
+    width: 100%;
+    /* margin-top: 17%; */
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+
+  .background {
+    min-height: 60%;
+  }
+
+  .hero_section {
+    width: 100%;
+    min-height: 50%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid black;
+  }
+
+  div.column {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .heading {
+    font-size: 2rem;
+    font-weight: 400;
+    /* width: 90%; */
+    max-width: 90%;
+
+  }
+
+  /* main section */
+  .card_container {
+    flex-direction: column;
+  }
+
+  .overlay_container {
+    top: 10%;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .section1 {
+    /* background: url('./dish1.jpg') center bottom/cover; */
+    margin-bottom: 85vh;
+
+  }
+
+  .section2 {
+    /* background: url('./dish2.jpg') center bottom/cover; */
+    margin-bottom: 95vh;
+
+
+
+  }
+
+  .section3 {
+    /* background: url('./dish3.jpg') center bottom/cover; */
+    margin-bottom: 110vh;
+
+  }
+
+  .section4 {
+    /* background: url('./dish4.jpg') center bottom/cover; */
+    margin-bottom: 205vh;
+
+  }
+
+  .section5 {
+    /* background: url('./dish5.jpg') center bottom/cover; */
+    margin-bottom: 115vh;
+
+  }
+
+  .section6 {
+    /* background: url('./dish6.jpg') center bottom/cover; */
+    margin-bottom: 85vh;
+
+  }
+
+  .section7 {
+    /* background: url('./baratender.png') center bottom/cover; */
+    margin-bottom: 20vh;
+
+  }
+
+  .section8 {
+    /* background: url('./dish8.jpg') center bottom/cover; */
+    margin-bottom: 145vh;
+
+  }
+
+  .section9 {
+    /* background: url('./dish9.jpg') center bottom/cover; */
+    margin-bottom: 85vh;
+
+  }
+
+  .section10 {
+    /* background: url('./dish10.jpg') center bottom/cover; */
+    margin-bottom: 170vh;
+
+  }
+
+  .section11 {
+    /* background: url('./dish11.jpg') center bottom/cover; */
+    margin-bottom: 270vh;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .menu__section_heading {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    width: 100%;
+  }
+
+  .text {
+    font-size: 0.9rem;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+
+
+  /* card section */
+  .card_heading {
+    margin: 10px;
+  }
+
+  .card_text {
+    width: 100%;
+  }
+
+  .card_container {
+    min-width: 100%;
+    padding: 25px 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(154, 154, 154, 0.534);
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .dish_name {
+    width: 100%;
+  }
+
+  .dish_text {
+    max-width: 100%;
+  }
+
+  .dish_img {
+    width: 50%;
+    height: 50%;
+  }
+
+  /* reservation section */
+  .reservation_section {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .form_container {
+    width: 100%;
+    height: 78%;
+  }
+
+  .wine_container {
+    width: 100%;
+    height: 70%;
+    /* aspect-ratio: 1; */
+    margin-top: 50px;
+  }
+
+  .wine {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+
+  }
+
+  div.input {
+    width: 100%;
+    /* display: block; */
+  }
+
+  .input_container input,
+  select {
+    width: 100%;
+    display: inline-block;
+  }
+
+
+
+}

@@ -1,0 +1,386 @@
+:root {
+  --clr-white-900: #fff;
+  --clr-white-500: #ffffff50;
+  --clr--black-900: #000;
+  --clr-black-600: #000f10;
+  --clr--accent-900: #c28059;
+}
+
+@media screen and (max-width: 160rem) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Philosopher', sans-serif;
+    color: var(--clr-white-900);
+    background-color: var(--clr-black-600);
+    overflow-x: hidden;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+
+  }
+
+  .title h1 {
+    font-size: 5rem;
+  }
+
+  .background {
+    width: 100%;
+    height: 57.14vh;
+    background: rgba(0, 0, 0, 0.848) url('./bg2.png') center center no-repeat;
+    /* background: url('https://www.maffei.in/wp-content/uploads/2022/12/bg1.png'); */
+    background-size: cover;
+  }
+
+  .hero_section {
+    width: 82.03%;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 0.9375rem;
+    border-bottom: 0.0625rem solid var(--clr--black-900);
+  }
+
+  .nav_section {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  /* heading */
+
+
+  .heading h1 {
+    font-weight: 400;
+    font-size: 5rem;
+
+  }
+
+  /* rare_galaxy */
+  .rare_galaxy {
+    width: 82.03%;
+    height: 64%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.0625rem solid var(--clr--black-900);
+    padding: 3.125rem 0;
+  }
+
+  .center {
+    width: 82.03%;
+    height: 30%;
+  }
+
+  .about__section_heading {
+    font-size: 2.375rem;
+    text-align: center;
+    /* margin: 0 5rem; */
+    margin: 0 5%;
+    line-height: 2.375rem;
+    font-weight: 400;
+
+  }
+
+  .section_content {
+    font-size: 1.065rem;
+    color: var(--clr-white-500);
+    text-align: center;
+    /* margin: 0 1.875rem; */
+    margin: 0 5%;
+    margin-top: 1.875rem;
+    letter-spacing: 0.0625rem;
+
+
+  }
+
+  .chef_sub_heading {
+    text-align: center;
+    color: var(--clr--accent-900);
+    margin: 1.875rem 0;
+    font-size: 1.185rem;
+  }
+
+  /* chef section */
+
+  .chef_section {
+    width: 100%;
+    min-height: 78.57vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10%;
+    background-color: var(--clr--black-900);
+    border: 0.0625rem solid var(--clr--black-900);
+  }
+
+  .chef {
+    width: 48%;
+    height: 90%;
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+  }
+
+  .chef_img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .chef_content {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chef_sub_heading {
+    color: var(--clr--accent-900);
+    margin: 1.875rem 0;
+    font-size: 1.185rem;
+  }
+
+  .chef_heading {
+    font-size: 2.375rem;
+    margin-bottom: 1.875rem;
+    line-height: 2.375rem;
+    font-weight: 400;
+  }
+
+  .chef_text {
+    font-size: 1.065rem;
+    color: var(--clr-white-500);
+    letter-spacing: 0.0625rem;
+  }
+
+  #left {
+    align-self: flex-start;
+    margin-top: 1.875rem;
+  }
+
+  .right {
+    align-self: flex-end;
+  }
+
+  /* quote section */
+  .quote_section {
+    width: 100%;
+    border: 0.0625rem solid var(--clr--black-900);
+    min-height: 72vh;
+    background: #07393d8b url("../../assets/quote.png") center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.125rem;
+  }
+
+  .quote_mark {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .quote_container {
+    width: 82.03%;
+    min-height: 42.85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3.125rem;
+  }
+
+  .quote_text {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1.25rem;
+  }
+
+  .author {
+    display: block;
+    font-size: 1.125rem;
+    margin-top: 4%;
+    color: var(--clr--accent-900);
+    text-transform: uppercase;
+  }
+
+  .carousal_container {
+    display: block;
+    text-align: center;
+    /* margin-top: 30.3125rem; */
+    margin-top: 2.1875rem;
+
+  }
+
+  .visible {
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.9rem;
+    /* aspect-ratio: 1; */
+    background-color: #d1b5a5;
+    margin: 0 0.625rem;
+  }
+
+}
+
+
+@media screen and (max-width: 31rem) {
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .background {
+    height: 2%;
+  }
+
+  .hero_section {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-bottom: 0.0625rem solid var(--clr--black-900);
+  }
+
+  .heading h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    /* width: 90%; */
+    /* max-width: 90%; */
+    padding: 0;
+    height: 100%;
+
+  }
+
+  .heading_text {
+    width: 190%;
+  }
+
+  .header_content {
+    text-align: center;
+  }
+
+  /* rare galaxy section */
+  .rare_galaxy {
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+    width: 100%;
+    padding: 4rem 2rem;
+
+  }
+
+  .center {
+    width: 100%;
+    height: auto;
+  }
+
+  .about__section_heading {
+    width: 100%;
+    margin: 0;
+    font-size: 1.175rem;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+  }
+
+  .section_content {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .chef_sub_heading {
+    margin-top: 0;
+  }
+
+  /* chef section */
+
+  .chef_section {
+    width: 100%;
+    padding: 2rem;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .chef {
+    margin: 0;
+    width: 100%;
+  }
+
+  .chef_img {
+    max-height: 23.125rem;
+  }
+
+  .chef_content {
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .chef_sub_heading {
+    margin-bottom: 0;
+  }
+
+  .chef_heading {
+    font-size: 1.175rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+  }
+
+  .chef_text {
+    font-size: 0.9rem;
+
+  }
+
+  #left {
+    align-self: center;
+  }
+
+  .chef_content>img {
+    width: 40%;
+  }
+
+  /* quote section */
+
+  .quote_section {
+    min-height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote_container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .quote_text {
+    font-size: 1.5rem;
+  }
+
+  .quote_mark {
+    width: 1.5rem;
+  }
+
+  .visible {
+    display: inline-block;
+    width: 0.625rem;
+    height: 0.625rem;
+    background-color: #d1b5a5;
+    margin: 0 0.625rem;
+  }
+
+  p.woap {
+    margin-top: 1.5625rem;
+    text-align: left;
+  }
+
+
+}
