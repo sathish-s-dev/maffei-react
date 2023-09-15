@@ -1,12 +1,10 @@
 import { Footer, Header, Reservation } from '../../components';
 import { images } from '../../assets';
-import {
-	TributeImage,
-	ImageSlider,
-	OurSpace,
-	QuoteSection,
-	PinchSection,
-} from '.';
+import { TributeImage } from './Tribute';
+import { ImageSlider } from './ImageSilder';
+import { OurSpace } from './OurSpace';
+import { QuoteSection } from './quote';
+import { PinchSection } from './pinch';
 import './home.css';
 import { Hero } from '../../components';
 
