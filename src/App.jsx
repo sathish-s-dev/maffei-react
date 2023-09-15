@@ -11,27 +11,27 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
 	const routes = [
 		{
-			path: '/',
+			path: '/maffei-react/',
 			Component: <Home />,
 		},
 		{
-			path: '/about',
+			path: '/maffei-react/about',
 			Component: <About />,
 		},
 		{
-			path: '/gallery',
+			path: '/maffei-react/gallery',
 			Component: <Gallery />,
 		},
 		{
-			path: '/events',
+			path: '/maffei-react/events',
 			Component: <Events />,
 		},
 		{
-			path: '/contact',
+			path: '/maffei-react/contact',
 			Component: <ContactPage />,
 		},
 		{
-			path: '/menu',
+			path: '/maffei-react/menu',
 			Component: <Menu />,
 		},
 	];
