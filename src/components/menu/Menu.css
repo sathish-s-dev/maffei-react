@@ -12,7 +12,7 @@
   }
 
   .menu__background {
-    width: 100vw;
+    width: 100%;
     background: url('./bg1.png') center center no-repeat;
     background-size: cover;
   }
@@ -35,12 +35,13 @@
   }
 
   .text_container {
-    width: 82.03%;
+    width: clamp(500px, 95%, 1200px);
     height: 90%;
-    /* margin: 150px auto; */
+    margin: 6rem auto;
     border: 1px solid black;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     flex-direction: column;
   }
@@ -72,7 +73,7 @@
   /* menu section */
 
   .background_img {
-    width: 100vw;
+    width: 100%;
     height: 71.42vh;
     /* padding-top: 300px; */
     clear: both;
@@ -242,7 +243,7 @@
   }
 
   .form_container {
-    width: 47.6%; 
+    width: 47.6%;
     height: 100%;
   }
 
@@ -338,7 +339,7 @@
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
   .btn {
     padding: 8px 16px;
@@ -347,6 +348,13 @@
 
   .background {
     min-height: 60%;
+  }
+
+  .text_container {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
   }
 
   .hero_section {

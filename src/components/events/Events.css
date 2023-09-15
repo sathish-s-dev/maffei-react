@@ -1,9 +1,4 @@
 @media screen and (max-width: 4000px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
   body {
     font-family: 'Edensor', sans-serif;
@@ -13,7 +8,7 @@
 
   .events__background {
     width: 100vw;
-    height: 57.14vh;
+    /* height: 57.14vh; */
     background: url('./bg1.png') center center no-repeat;
     background-size: cover;
   }

@@ -70,36 +70,6 @@
   }
 
 
-  .nav_item:hover {
-    transform: translateY(-0.625rem);
-    color: var(--clr-white-900);
-  }
-
-  .nav_item:hover .circle {
-    display: block;
-    transform: translateY(-2px);
-
-  }
-
-  .active {
-    color: var(--clr-white-900);
-    transform: translateY(0.625rem);
-
-  }
-
-  .circle {
-    width: 0.625rem;
-    height: 0.625rem;
-    background-color: var(--clr-accent-900);
-    border-radius: 50%;
-    margin: 0.3125rem auto;
-    display: none;
-  }
-
-  .active .circle {
-    display: block;
-  }
-
   #cancel {
     padding: 0.625rem;
   }

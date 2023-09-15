@@ -1,48 +1,50 @@
+import { Link } from 'react-router-dom';
+
 export const NavItems = () => {
 	const navLinks = [
 		{
 			id: 1,
 			text: 'Home',
-			path: '#',
+			path: '/maffei-react',
 		},
 		{
 			id: 2,
 			text: 'Our Story',
-			path: '#',
+			path: '/maffei-react/about',
 		},
 		{
 			id: 3,
 			text: 'Menu',
-			path: '#',
+			path: '/maffei-react/menu',
 		},
 		{
 			id: 4,
 			text: 'Events',
-			path: '#',
+			path: '/maffei-react/events',
 		},
 		{
 			id: 5,
 			text: 'Gallery',
-			path: '#',
+			path: '/maffei-react/gallery',
 		},
 		{
 			id: 6,
 			text: 'Contact us',
-			path: '#',
+			path: '/maffei-react/contact',
 		},
 	];
 	return (
 		<>
 			{navLinks.map((item) => (
-				<a
-					href='#'
+				<Link
+					to={item.path}
 					key={item.id}>
 					<li className='nav_item active'>
 						{item.text}
 						{/* circle class */}
 						<div className=''></div>
 					</li>
-				</a>
+				</Link>
 			))}
 			<a
 				href='#'
