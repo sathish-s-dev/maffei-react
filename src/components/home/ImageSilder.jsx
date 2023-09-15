@@ -1,7 +1,47 @@
 import { images } from '../../assets';
+import Slider from 'react-slick';
+import '../../assets/slick.css';
+import '../../assets/slick-theme.css';
 
 export function ImageSlider() {
 	const { slider1 } = images;
+
+	var settings = {
+		dots: false,
+		infinite: true,
+		autoplay: true,
+		speed: 2500,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		initialSlide: 0,
+		rows: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3,
+					infinite: true,
+					dots: true,
+				},
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					initialSlide: 2,
+				},
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+		],
+	};
 	return (
 		<section className='main'>
 			<div className='home__section2'>
@@ -26,19 +66,18 @@ export function ImageSlider() {
 					seasonal dishes historically driven by culinary methods.
 				</p>
 			</div>
-			<div className='img_slider1'>
-				{slider1.map((img, index) => (
-					<div
-						key={index}
-						className='slider1_img_wrapper flex'>
+
+			<Slider {...settings}>
+				{slider1.map((item) => (
+					<div key={item.name}>
 						<img
-							src={img.value}
-							alt='dish'
+							src={item.value}
+							alt={item.name}
 							className='slider_image1'
 						/>
 					</div>
 				))}
-			</div>
+			</Slider>
 		</section>
 	);
 }
