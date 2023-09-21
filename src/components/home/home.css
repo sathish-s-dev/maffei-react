@@ -624,6 +624,7 @@
   .pinch_img {
     flex: 1;
     width: 100%;
+    max-width: 250px;
     height: 90%;
     object-fit: cover;
   }
