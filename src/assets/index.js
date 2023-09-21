@@ -1,7 +1,7 @@
 // flyer images
-import flyer1 from './home/flyer-1.jpg';
-import flyer2 from './home/flyer-2.jpg';
-import flyer3 from './home/flyer-3.jpg';
+import flyer1 from './home/flyer-1.webp';
+import flyer2 from './home/flyer-2.webp';
+import flyer3 from './home/flyer-3.webp';
 
 // slider1 images
 import sliderImg1 from './home/slider_img1.jpg';
